@@ -50,10 +50,15 @@ Explore as opções de cada comando para personalizar seu uso.
 
 Utilize o Docker Compose para gerenciar aplicações com múltiplos containers.
 
-## Referências
+## 🔗Links e repositórios úteis
 
 [Documentação oficial](https//docs.docker.com/)
 
 [Docker Hub](https://hub.docker.com/)
 
 
+
+
+## 🔎Onde me encontrar
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](https://www.linkedin.com/in/jalisson-xavier/)
+[![Github](https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github)](https://github.com/jalisson-xavier)
