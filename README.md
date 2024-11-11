@@ -1,4 +1,4 @@
-# Cheat Sheet - Docker
+# Cheatsheet - Docker
 
 ## Introdução
 O Docker é uma plataforma que permite criar, distribuir e executar aplicações dentro de containers isolados e portáteis.
