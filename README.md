@@ -9,19 +9,19 @@ O Docker é uma plataforma que permite criar, distribuir e executar aplicações
 
 | Bash									|Descrição				|
 | --------------------------------------|-----------------------|
-| 	`docker images` 						| # Listar 				|
-| 	`docker build -t <nome_da_imagem> .`	| # Criar               |
-| 	`docker rmi <nome_da_imagem>` 		| # Remover             |
+| `docker images` 						| # Listar 				|
+| `docker build -t <nome_da_imagem> .`	| # Criar               |
+| `docker rmi <nome_da_imagem>` 		| # Remover             |
 
 ## Gerenciar Containers
 
 | Bash									|Descrição				|
 | --------------------------------------|-----------------------|
-| `docker ps` 							            | # Listar              |
-| `docker ps -a`						          | # Listar ocultos      |
+| `docker ps` 							| # Listar              |
+| `docker ps -a`						| # Listar ocultos      |
 | `docker run -it <nome_da_imagem>`		| # Rodar               |
 | `docker stop <nome_do_container>`		| # Parar               |
-| `docker rm <nome_do_container>`		  | # Remover             |
+| `docker rm <nome_do_container>`		| # Remover             |
 
 ## Outros Comandos Úteis
 
@@ -53,5 +53,6 @@ Utilize o Docker Compose para gerenciar aplicações com múltiplos containers.
 ## Referências
 
 [Documentação oficial](https//docs.docker.com/)
+[Docker Hub](https://hub.docker.com/)
 
 
