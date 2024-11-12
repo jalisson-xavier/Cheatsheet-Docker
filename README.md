@@ -54,7 +54,9 @@ Utilize o Docker Compose para gerenciar aplicações com múltiplos containers.
 ## 🔗Links e repositórios úteis
 
 [Documentação oficial](https//docs.docker.com/)
+
 [Repositório de imagens](https://hub.docker.com/)
+
 [App Docker](https://app.docker.com/)
 
 ## 🔎Onde me encontrar
