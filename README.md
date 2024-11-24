@@ -1,11 +1,11 @@
 # Cheatsheet - Docker
 
-## Introdução
+## 📒Introdução
 O Docker é uma plataforma que permite criar, distribuir e executar aplicações dentro de containers isolados e portáteis.
 
-## Comandos Essenciais
+## ⚙️Comandos Essenciais
 
-## Gerenciar Imagens
+### Gerenciar Imagens
 
 ```
 docker images	# Listar
@@ -13,7 +13,7 @@ docker build -t <nome_da_imagem> .	# Criar
 docker rmi <nome_da_imagem>	# Remover
 ```
 
-## Gerenciar Containers
+### Gerenciar Containers
 
 ```
 docker ps	# Listar 
@@ -24,7 +24,7 @@ docker stop <nome_do_container>	# Parar
 docker rm <nome_do_container>	# Remover
 ```
 
-## Outros Comandos Úteis
+### Outros Comandos Úteis
 
 ```
 docker volume create, docker volume rm	# Gerenciar volumes
@@ -32,14 +32,14 @@ docker exec	# Executar comandos em um container
 docker system prune	#Poda de recursos não utilizados
 ```
 
-## Conceitos Importantes
+## 💡Conceitos Importantes
 
 - **Imagem** Um template a partir do qual os containers são criados.
 - **Container** Uma instância em execução de uma imagem.
 - **Dockerfile** Um arquivo de texto que contém todas as instruções para criar uma imagem.
 - **Volume** Uma forma de persistir dados fora do container.
 
-## Dicas e Truques
+## 📌Dicas e Truques
 
 - Utilize **tags** para organizar suas imagens.
 - Explore as opções de cada comando para personalizar seu uso.
@@ -48,9 +48,7 @@ docker system prune	#Poda de recursos não utilizados
 ## 🔗Links e repositórios úteis
 
 [Documentação oficial](https//docs.docker.com/)
-
 [Repositório de imagens](https://hub.docker.com/)
-
 [App Docker](https://app.docker.com/)
 
 ## 🔎Onde me encontrar
