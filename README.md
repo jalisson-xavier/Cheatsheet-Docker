@@ -9,8 +9,8 @@ O Docker é uma plataforma que permite criar, distribuir e executar aplicações
 
 ```
 docker images	# Listar
-docker build -t <nome_da_imagem> .	# Criar
-docker rmi <nome_da_imagem>	# Remover
+docker build -t <nome_da_imagem> .	# Criar 
+docker rmi <nome_da_imagem>	# Remover 
 ```
 
 ### Gerenciar Containers
@@ -18,8 +18,9 @@ docker rmi <nome_da_imagem>	# Remover
 ```
 docker ps	# Listar 
 docker ps -a	# Listar todos
-docker run -it <nome_da_imagem>	# Rodar 
-docker run -dit <nome_da_imagem>	# Rodar rodar em background
+docker run -ti <nome_da_imagem>	# Rodar com terminal e interatividade 
+docker run -dti <nome_da_imagem>	# Rodar rodar em background com terminal e interatividade
+docker run -dti --name <nome_para_a_imagem> <nome_da_imagem>	# Dar um nome para imagem que voce vai rodar
 docker stop <nome_do_container>	# Parar
 docker rm <nome_do_container>	# Remover
 ```
@@ -29,6 +30,10 @@ docker rm <nome_do_container>	# Remover
 ```
 docker volume create, docker volume rm	# Gerenciar volumes
 docker exec	# Executar comandos em um container
+docker exec	-ti <nome_do_container> /bin/bash # Ex: Acessar o container utilzando terminal bash
+docker exec	<nome_do_container> mkdir /destino # Ex: Criar um diretório dentro do container
+docker cp <nome do arquivo> <nome_do_container>:/destino  # Ex: Copiar arquivo local para o container
+docker cp <nome_do_container>:/destino/arquivo.txt arquivot.txt # Ex: Copiar aquivo do container para servidor local
 docker system prune	#Poda de recursos não utilizados
 ```
 
